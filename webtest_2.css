@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+}
+
+section.container {
+    background: url(/img/curri5.png) no-repeat;
+    width: 300px;
+    height: 168px;
+    display: block;
+    position: relative;
+}
+.overlay{
+    width: inherit;
+    color: white;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.text {
+    display: inherit;
+    
+    
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+}
+
+.container:hover .text_1 {
+    font-size: 0;
+}
+
+.text_1 {
+    display: inline;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}

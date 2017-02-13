@@ -1,0 +1,267 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    box-sizing: border-box;
+    
+}
+
+html{
+    -webkit-overflow-scrolling : touch;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back-door .curriculum .active .contact .footer {
+    
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+div.background{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-door {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/m_img.jpg);
+}
+
+/*header --start*/
+
+.header .gnb {
+    
+    /*align-items:center;*/
+}
+
+nav.gnb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav.gnb > ul {
+    display: inherit;
+    list-style-type: none;
+}
+
+nav.gnb > ul > li {
+    display: inherit;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+nav.gnb > ul > li > a {
+    color: black;
+}
+
+nav.gnb > ul > a > img {
+    width: 100px;
+}
+
+nav.gnb > h1 > a > img {
+    width: 150px;
+}
+
+/*header --end*/
+.mk{
+    text-align:center;
+}
+/*curriculum --start*/
+
+section.curriculum{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+
+div.curriculum-b1{
+    width: 100%;
+    display:flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.curriculum-b2{
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.curriculum > article{
+    height:300px;
+    width:100%;
+}
+
+.curriculum-box {
+    height:50px;
+}
+
+article.curriculm-box {
+    height: 250px;
+    width: 33.33%;
+}
+
+article.curriculm-box > h2 {
+    color:white;
+    display: inline;
+}
+article.curriculm-box > p {
+    color:white;
+}
+
+.img001 {
+    background: url(img/codings.png) no-repeat center;
+    background-size: cover;
+}
+
+.img001:hover {
+    opacity: 1;
+}
+
+.img002 {
+    background: url(img/curri1.png) no-repeat center;
+    background-size: cover;
+}
+
+.img003 {
+    background:url(/img/curri2.png) no-repeat center;
+    background-size: cover;
+}
+
+.img004 {
+    background:url(/img/curri3.png) no-repeat center;
+    background-size: cover;
+}
+
+.img005 {
+    background:url(/img/currihtml.png) no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+
+.img006 {
+    background:url(/img/curri5.png) no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*curriculum --end*/
+
+/*active --start*/
+
+section.active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+section.active > article > img{
+    max-width:100%;
+    height:auto;
+    margin-right:30px;
+}
+
+/*active --end*/
+
+/*footer --start*/
+footer.footer{
+    color:#fff;
+    background-color: black;
+	display:flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	align-items:center;
+	justify-content: center;
+	height: 150px;
+}
+footer.footer > article {
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+footer.footer > article > p {
+    font-size:.7rem;
+    color: rgba(255,255,255,.34);
+    text-align:center;
+}
+
+footer.footer > article > ul {
+    width:80%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer.footer > article > ul > li{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+footer.footer > article > ul > li > i{
+    color: #f6921e;
+    padding-right: 15px;
+}
+
+
+
+/*footer --end*/
+
+.small_bar {
+    position:fixed;
+    top:0px;
+    left:-999px;
+}
+
+.s_logo{
+    display:none;
+}
+
+@media screen and (max-width:712px){
+
+nav.gnb > ul > li {
+    display: inherit;
+    align-items: center;
+    font-size: 14px;
+}
+
+}
+
+@media screen and (max-width:610px){
+.s_logo {
+  display:block;
+ }
+
+.l_logo{
+    display: none;
+}
+
+.gnb > h1 > a{
+    width:30px;
+}
+footer.footer > article > ul > li{
+    padding-bottom:5px;
+}
+
+}
+

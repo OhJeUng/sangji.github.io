@@ -1,0 +1,481 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+
+* {
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    box-sizing: border-box;
+    margin: 0 0 0 0 ;
+}
+
+html{
+    -webkit-overflow-scrolling : touch;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back-door .curriculum .active .contact .footer {
+    
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+div.background{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.back-door {
+    padding-top:80px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/img/mac.jpg);
+    -webkit-filter: grayscale(50%);
+    opacity: 0.8;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+}
+/*header --start*/
+
+
+h2.header-h2-font {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
+ 
+}
+
+p.header-p-font {
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+article.bg-flex {
+    width: 50%;
+    height: inherit;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+article.bg-flex > div {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+a.header-a-button {
+    margin-top:10px;
+    padding: 15px 30px;
+    background:linear-gradient( to bottom, rgb(162, 46, 52), rgb(138, 71, 71) );
+    border-radius:6px;
+    color: white;
+}
+
+.fixed{
+    position: fixed;
+    width:100%;
+    z-index:10;
+    background-color:white;
+}
+
+nav.gnb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 55px;
+}
+
+nav.gnb > ul {
+    display: inherit;
+    list-style-type: none;
+    padding-left:20px;
+}
+
+nav.gnb > ul > li {
+    display: inherit;
+    padding-right: 20px;
+    align-items: center;
+    font-size: 18px;
+}
+
+nav.gnb > ul > li > a {
+    color: black;
+}
+
+nav.gnb > ul > a > img {
+    width: 100px;
+}
+
+nav.gnb img.l_logo {
+    width: 150px;
+}
+
+/*header --end*/
+.mk{
+    text-align:center;
+}
+/*curriculum --start*/
+
+h2.curriculm-h2 {
+    padding-left: 85px;
+    font-size: 3.3475rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+}
+
+p.curriculm-p {
+    padding-left: 85px;
+    font-size: 1.9125rem;
+    font-weight: 100;
+    margin-bottom: 8.5rem;
+    
+}
+
+section.curriculum{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    padding : 80px 0 80px 0;
+}
+
+div.curriculum-b1{
+    width: 100%;
+    display:flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div.curriculum-b2{
+    padding-top:80px;
+    display: flex;
+    flex-direction : row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.curriculum > article{
+    height:300px;
+    width:100%;
+    
+}
+
+.curriculum-box {
+    height:50px;
+}
+
+article.curriculm-box {
+    height: 550px;
+    width: 33.33%;
+    position: relative;
+}
+
+article.curriculm-box > h2 {
+    color:white;
+}
+article.curriculm-box > p {
+    color:white;
+}
+
+.overlay{
+    width: initial;
+    color: white;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #0A6eda;
+}
+
+.curriculm-box:hover .overlay {
+    opacity: 0.9;
+}
+
+.curriculm-box:hover h2.article-h2 {
+    font-size: 0;
+}
+
+.text{
+    text-align:center;
+}
+
+h2.article-h2 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.img001 {
+    background: url(img/codings.png) no-repeat center;
+    background-size: cover;
+}
+
+.img002 {
+    background: url(img/curri1.png) no-repeat center;
+    background-size: cover;
+}
+
+.img003 {
+    background:url(/img/curri2.png) no-repeat center;
+    background-size: cover;
+}
+
+.img004 {
+    background:url(/img/study.png) no-repeat center;
+    background-size: cover;
+    background-position: inherit;
+}
+
+.img005 {
+    background:url(http://cfile27.uf.tistory.com/image/2742EF4E57910D5501F0F5) no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+
+.img006 {
+    background:url(http://cfile30.uf.tistory.com/image/211FAF4157D93746259016) no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+
+/*curriculum --end*/
+
+/*Sign up --start*/
+
+section.sign-up {
+    /*width: 100%;*/
+    /*padding: 10rem 0;*/
+}
+
+
+/*Sign up --end*/
+
+/*active --start*/
+section.active article{
+    width:90%;
+}
+section.active > div {
+    width:100%;
+}
+
+section.active {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    padding: 80px 0 80px 0;
+}
+
+section.active > article > img{
+    max-width:100%;
+    height:auto;
+    margin-right:30px;
+    
+}
+/*active --end*/
+
+/*footer --start*/
+footer.footer{
+    
+    color:#fff;
+    background-color: black;
+	display:flex;
+	flex-direction:column;
+	flex-wrap: nowrap;
+	align-items:center;
+	justify-content: center;
+	height: 150px;
+	
+}
+
+footer.footer > article {
+    width:100%;
+    display:flex;
+    justify-content:center;
+    
+}
+
+footer.footer > article > p {
+    font-size:.7rem;
+    color: rgba(255,255,255,.34);
+    text-align:center;
+    
+}
+
+footer.footer > article > ul {
+    width:80%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+footer.footer > article > ul > li{
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+footer.footer > article > ul > li > i{
+    color: #f6921e;
+    padding-right: 15px;
+}
+
+
+
+/*footer --end*/
+
+.small_bar {
+    position:fixed;
+    top:0px;
+    left:-999px;
+}
+
+.s_logo{
+    display:none;
+    width:30px;
+}
+
+@media screen and (max-width:768px){
+    h2.header-h2-font{
+        font-size:40px;
+    }
+
+    p.header-p-font {
+        font-size:15px;
+    }
+    
+}
+
+
+@media screen and (max-width:712px){
+
+nav.gnb > ul > li {
+    display: inherit;
+    align-items: center;
+    font-size: 14px;
+}
+
+h2.header-h2-font{
+    font-size:50px;
+}
+
+p.header-p-font {
+    font-size:15px;
+}
+
+article.bg-flex {
+    width: 80%;
+}
+
+}
+
+
+@media screen and (max-width:615px){
+    
+.s_logo {
+  display:block;
+  width:50px;
+ }
+
+.l_logo{
+    display: none;
+}
+
+.gnb > h1 > a{
+    width:30px;
+}
+
+footer.footer > article > ul > li{
+    padding-bottom:5px;
+}
+
+h2.header-h2-font{
+    font-size:35px;
+}
+
+p.header-p-font {
+    font-size:15px;
+}
+
+}
+
+@media screen and (max-width:650px){
+article.curriculm-box {
+    width: 100%;
+}
+}
+
+@media screen and (max-width:450px){
+h2.header-h2-font{
+    font-size:30px;
+}
+
+article.bg-flex {
+    width: 60%;
+}
+
+p.header-p-font {
+    font-size:15px;
+}
+}
+
+@media screen and (max-width:360px){
+h2.header-h2-font{
+    font-size:25px;
+}
+
+article.bg-flex {
+    width: 60%;
+}
+
+p.header-p-font {
+    font-size:10px;
+}
+}
+/*@media screen and (min-width:375px){*/
+/*h2.header-h2-font{*/
+/*    font-size:35px*/
+/*}*/
+
+/*article.bg-flex {*/
+/*    width: 60%;*/
+/*}*/
+
+/*p.header-p-font {*/
+/*    font-size:15px;*/
+/*}*/
+/*}*/
+
+/*@media screen and (min-width:320px){*/
+/*h2.header-h2-font{*/
+/*    font-size:25px*/
+/*}*/
+
+/*article.bg-flex {*/
+/*    width: 60%;*/
+/*}*/
+
+/*p.header-p-font {*/
+/*    font-size:12px;*/
+/*}*/
+/*}*/
